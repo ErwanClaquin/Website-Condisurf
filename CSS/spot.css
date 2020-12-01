@@ -87,8 +87,35 @@ p, em
     color: blue;
 }
 
-.main-webcam
+
+
+.niveau
+{
+    color: red;
+}
+
+.webcam
 {
 	position: relative;
-	bottom: 150px; left: 1500px;
+	
+}
+
+section
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 10px solid #666666;
+}
+#main
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+    
 }
