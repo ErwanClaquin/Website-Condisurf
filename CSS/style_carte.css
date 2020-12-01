@@ -1,0 +1,144 @@
+figure.carte
+{
+	float: left;
+
+}
+
+.menuprincipal
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #666666;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+
+.puceprincipalefirst {
+	margin-right: 5px;
+}
+
+
+.puceprincipal  li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+
+.puceprincipal {
+	margin: 0 5px;
+}
+
+.puceprincipal a {
+	color: #FF0000;
+	text-align: center;
+	padding: 16px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.puceprincipal a:hover {
+	background-color: #111111;
+}
+
+.pucelastfirst {
+	margin-right: 5px;
+}
+
+.pucelast  li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+
+.pucelast {
+	margin: 0 5px;
+}
+
+.pucelast a {
+	text-align: center;
+	padding: 16px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.logo
+{
+	width: 4em;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.socialNetwork
+{
+	width: 2em;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+img.carte
+{
+	width: 40em;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+
+}
+
+img.option
+{
+	width: 2em;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+div.center
+{
+	display: flex;
+	justify-content: center;
+}
+
+div.container
+{	
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+section
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #666666;
+	border-radius: 5px;
+	display: flex;
+	padding: 5px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+section.meteo
+{
+	flex-direction: column;
+}
+
+footer
+{
+	
+}
