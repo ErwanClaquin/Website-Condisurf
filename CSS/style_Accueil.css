@@ -12,29 +12,25 @@
 
 }
 
+
+.puceprincipalefirst {
+	margin-right: 5px;
+}
+
+}
+
 .puceprincipal  li
 {
 	display: inline-block;
 	list-style: none;
 }
 
-}
-.pucefirst {
-	margin-right: 5px;
-}
 
-}
 .puceprincipal {
 	margin: 0 5px;
 }
 
-.pucelast {
-	margin-left: auto;
-	margin-right: 5px
-}
-
-.puceprincipal a
-{
+.puceprincipal a {
 	color: #FF0000;
 	text-align: center;
 	padding: 16px;
@@ -46,9 +42,41 @@
 	background-color: #111111;
 }
 
+.pucelastfirst {
+	margin-right: 5px;
+}
+
+}
+
+.pucelast  li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+
+.pucelast {
+	margin: 0 5px;
+}
+
+.pucelast a {
+	text-align: center;
+	padding: 16px;
+	margin: 10px;
+	text-decoration: none;
+}
+
 .logo
 {
 	width: 4em;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.socialNetwork
+{
+	width: 2em;
 	height: auto;
 	max-width: 100%;
 	max-height: 100%;
