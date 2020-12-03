@@ -4,23 +4,80 @@
 	<meta charset="utf-8" />
 	<title>CondiSurf - BZH</title>
 	<link rel="shortcut icon" href="Images/logo_surf_noBG.ico" type="image/x-con" />
-	<link rel="stylesheet" href="CSS/style_Accueil.css"/>
+	<link rel="stylesheet" href="../CSS/style_carte.css"/>
 </head>
 
 <body>
+	<header>
 	<ul class="menuprincipal">
-		<li class="puceprincipalefirst"><img class="logo" src="Images/logo_surf_noBG.png" alt="Logo"></li>
+		<li class="puceprincipalefirst"><img class="logo" src="../Images/logo_surf_noBG.png" alt="Logo"></li>
 		<li class="puceprincipal"><a href="">Carte des spots</a></li>
 		<li class="puceprincipal"><a href="">Covoiturage</a></li>
 		<li class="puceprincipal"><a href="">Matériel</a></li>
-		<li class="puceprincipalelast"><img class="logo" src="Images/login.png" alt="Login"></li>
+		<li class="puceprincipalelast"><img class="logo" src="../Images/login.png" alt="Login"></li>
 	</ul>
-	<p></p><p></p><p></p><p></p>
+	</header>
+
+	<div class = container>
+	<h1>Carte des spots</h1>
+	<section>
+		<div>
+			<img class = "carte" src="../Images/carte.jpg">
+		</div>
+		<div>
+			<h3>Légende : </h3>
+			<div>
+				<img class = "option" src="../Images/login.png">
+				<label>Option 1</label>
+			</div>
+
+			<div>
+				<img class = "option" src="../Images/login.png">
+				<label>Option 2</label>
+			</div>
+
+			<div>
+				<img class = "option" src="../Images/login.png">
+				<label>Option 3</label>
+			</div>
+
+			<h3>Option : </h3>
+			<div>
+				<input type="checkbox" class = "option" name="option1">
+				<label for="option1">Option 1</label>
+			</div>
+			<div>
+				<input type="checkbox" class = "option" name="option2">
+				<label for="option2">Option 2</label>
+			</div>	
+				
+			<div>
+				<input type="checkbox" class = "option" name="option3">
+				<label for="option3">Option 3</label>
+			</div>
+		</div>
+	</section>
+
+	<section class = meteo>
+		<h2 class = "titre">Information météo de la journée</h2>
+		<div class = center>
+			<p>
+				Vents de <strong> 15 km</strong> venant de l'<em>ouest</em>.<br>
+				La température ambiante est de <mark>15</mark>°<br>
+				La houle sera de XX sur la cote nord et de YY sur la cote Ouest
+			</p>
+		</div>
+
+	</section>
+	</div>
+
+	<footer>
 	<ul class="menuprincipal">
-		<li class="pucelastfirst"><a href="https://facebook.com"><img class="socialNetwork" src="Images/fb.png" alt="Facebook"></a></li>
-		<li class="pucelast"><a href="https://twitter.com"><img class="socialNetwork" src="Images/twitter.png" alt="Twitter"></a></li>
-		<li class="pucelast"><a href="https://instagram.com"><img class="socialNetwork" src="Images/insta.png" alt="Instagram"></a></li>
+		<li class="pucelastfirst"><a href="https://facebook.com"><img class="socialNetwork" src="../Images/fb.png" alt="Facebook"></a></li>
+		<li class="pucelast"><a href="https://twitter.com"><img class="socialNetwork" src="../Images/twitter.png" alt="Twitter"></a></li>
+		<li class="pucelast"><a href="https://instagram.com"><img class="socialNetwork" src="../Images/insta.png" alt="Instagram"></a></li>
 	</ul>
+	</footer>
 
 </body>
 </html>
