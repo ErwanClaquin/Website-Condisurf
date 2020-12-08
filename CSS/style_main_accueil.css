@@ -106,14 +106,17 @@ div#slider figure
 	margin: 0;
 	padding: 0;
 	font-size: 0;
-	text-align: left;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	align-items: center;
 }
 
 div#slider figure img 
 {
 	width: 20%;
 	height: auto;
-	float: left; 
+	float: center; 
 }
 
 div#slider 
@@ -134,7 +137,8 @@ div#slider
 	60% { left: -300%; }
 	76% { left: -300%; }
 	80% { left: -400%; }
-	100% { left: -400%; }
+	96% { left: -400%; }
+	100%{ left: 0%; }
 }
 
 div#slider figure 
