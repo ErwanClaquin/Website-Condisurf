@@ -5,6 +5,7 @@
 	<title>CondiSurf - BZH</title>
 	<link rel="shortcut icon" href="Images/logo_surf_noBG.ico" type="image/x-con" />
 	<link rel="stylesheet" href="../CSS/style_carte.css"/>
+	<script type="text/javascript" src="../JS/anim_carte.js"></script>
 </head>
 
 <body>
@@ -18,57 +19,70 @@
 	</ul>
 	</header>
 
-	<div class = container>
-	<h1>Carte des spots</h1>
-	<section>
-		<div>
-			<img class = "carte" src="../Images/carte.jpg">
-		</div>
-		<div>
-			<h3>Légende : </h3>
-			<div>
-				<img class = "option" src="../Images/login.png">
-				<label>Option 1</label>
+	<script>
+		let elt = document.getElementById('infoMeteo');
+		elt.innerHTML = "<p> ta mer marche stp</p>"
+		elt.style.backgroundColor = "#000";
+	</script>
+
+	<div id = "container">
+		<h1>Carte des spots</h1>
+		<section id = "carte">
+			<div class = "element">
+				<img id = "imgCarte" src="../Images/carte.jpg">
+				<img class = option src="../Images/spot.png">
 			</div>
 
-			<div>
-				<img class = "option" src="../Images/login.png">
-				<label>Option 2</label>
-			</div>
+			<div class = "element", id = "legende"> 
+				<h3>Légende : </h3>
+				<div class = elementLegende>
+					<div class = elemleg>
+						<img class = "option" src="../Images/spot.png">
+						<label>Spot</label>
+					</div>
 
-			<div>
-				<img class = "option" src="../Images/login.png">
-				<label>Option 3</label>
-			</div>
+					<div class = elemleg>
+						<img class = "option" src="../Images/flecheHoule.png">
+						<label>Houle</label>
+					</div>
 
-			<h3>Option : </h3>
-			<div>
-				<input type="checkbox" class = "option" name="option1">
-				<label for="option1">Option 1</label>
-			</div>
-			<div>
-				<input type="checkbox" class = "option" name="option2">
-				<label for="option2">Option 2</label>
-			</div>	
+					<div class = elemleg>
+						<img class = "option" src="../Images/flecheVent.png">
+						<label>Vent</label>
+					</div>
+				</div>
 				
-			<div>
-				<input type="checkbox" class = "option" name="option3">
-				<label for="option3">Option 3</label>
+				<h3>Options : </h3>
+				<div class = elementLegende>
+					<div class = elemleg>
+						<input type="checkbox" class = "option" name="option1">
+						<label for="option1">Houle</label>
+					</div>
+
+					<div class = elemleg>
+						<input type="checkbox" class = "option" name="option2">
+						<label for="option2">Vent</label>
+					</div>	
+						
+					<div class = elemleg>
+						<input type="checkbox" class = "option" name="option3">
+						<label for="option3">Températures</label>
+					</div>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class = meteo>
-		<h2 class = "titre">Information météo de la journée</h2>
-		<div class = center>
-			<p>
-				Vents de <strong> 15 km</strong> venant de l'<em>ouest</em>.<br>
-				La température ambiante est de <mark>15</mark>°<br>
-				La houle sera de XX sur la cote nord et de YY sur la cote Ouest
-			</p>
-		</div>
+		<section id = "meteo">
+			<h2 class = "titre">Information météo de la journée</h2>
+			<div id = "infoMeteo">
+				<p>
+					Vents de <strong> 15 km</strong> venant de l'<em>ouest</em>.<br>
+					La température ambiante est de <mark>15</mark>°<br>
+					La houle sera de XX sur la cote nord et de YY sur la cote Ouest
+				</p>
+			</div>
 
-	</section>
+		</section>
 	</div>
 
 	<footer>
