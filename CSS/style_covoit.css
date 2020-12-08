@@ -99,6 +99,15 @@
 	max-height: 100%;
 }
 
+.section_principal
+{
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	border: 3px solid black;
+	height: 50%;
+}
+
 .proposition_covoit
 {
 	border: 3px solid black;
@@ -116,9 +125,18 @@
 
 .info_voyage
 {
-	margin-top: 60px;
+	margin-top: 40px;
 }
-
+.bouton_bleu
+{
+	padding: 7px;
+	border :3px solid blue;
+	border-radius: 7px;
+	box-shadow: 5px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
 footer
 {
 	margin-top: 2px;

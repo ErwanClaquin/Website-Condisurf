@@ -9,46 +9,119 @@
 <body>
 	<header>
 	<ul class="menuprincipal">
-		<li class="puceprincipalefirst"><img class="logo" src="../Images/logo_surf_noBG.png" alt="Logo"></li>
-		<li class="puceprincipal"><a href="">Carte des spots</a></li>
-		<li class="puceprincipal"><a href="">Covoiturage</a></li>
+		<li class="puceprincipalefirst"><a href="accueil.html"><img class="logo" src="../Images/logo_surf_noBG.png" alt="Logo"title ="accueil"></a></li>
+		<li class="puceprincipal"><a href="CarteSpots.html">Carte des spots</a></li>
+		<li class="puceprincipal"><a href="covoiturage.html">Covoiturage</a></li>
 		<li class="puceprincipal"><a href="">Matériel</a></li>
-		<li class="puceprincipalelast"><img class="logo" src="../Images/login.png" alt="Login"></li>
+		<li class="puceprincipalelast"><img class="logo" src="../Images/login.png" alt="Login" title="Profil"></li>
 	</ul>
 	</header>
 
 	<div class="barre-recherche">
+
 	<ul class ="menubarre">
-		<li class="filtre">Filtrer par</li>
+		<li><h1>Ma recherche</h1></li>
+		<li class ="motclé">
+			<label for="name">Recherche par mot clé:</label>
+			<input type="text" id="name" name="name" required minlength="1" maxlength="18" size="20">
+		</li>
 		<li class="calendrier"><a href=""><img class ="logo_calendar" src="../Images/logo_calendar.png" alt ="Calendrier"></a></li>	
 		<li class ="type-voyage">
-			<ul >
-				<li>Covoiturage journée</li>
-				<li>SurfTrip</li>
-			</ul>
+			<div>
+				<input type="checkbox" class = "option" name="option1">
+				<label for="option1">Covoiturage journée</label>
+			</div>
+			<div>
+				<input type="checkbox" class = "option" name="option2">
+				<label for="option2">SurfTrip</label>
+			</div>	
 		</li>
-		<li class ="motclé">Recherche par mot clé:</li>
-	</ul>		
+		<li><a href="" class ="bouton_bleu"> Lancer la recherche ! </a></li>
+
+	</ul>
+
 	</div>
 
-	<div class ="proposition_covoit">
-		<div class ="profil_driver"><h1>Nom du conducteur</h1>
-			<p><img src="../Images/profil_photo.jpg" class = "profil_photo"></p>
-		</div>
-		<div class ="info_voyage">
-			<ul>
-				<li>Horaire</li>
-				<li>Lieu départ</li>
-				<li>Lieu arrivé</li>
-				<li>Places disponibles</li>
-			</ul>
-		</div>
-		<div class = "description_voyage">
-			<h1>Description</h1>
-			<p>Bla bla bla je décris mon covoit et je rentre dans les détails si il faut préciser quoi que ce soit....</p>
-		</div>
-		<a href="" class ="bouton_bleu">En savoir plus</a>
-	</div>
+	<section class = "section_principal">
+		<div class ="proposition_covoit">
+			<div class ="profil_driver"><h1>Nom du conducteur</h1>
+				<p><img src="../Images/profil_photo.jpg" class = "profil_photo"></p>
+			</div>
+			<div class ="info_voyage">
+				<ul>
+					<li>Horaire</li>
+					<li>Lieu départ</li>
+					<li>Lieu arrivé</li>
+					<li>Places disponibles</li>
+				</ul>
+			</div>
+			<div class = "description_voyage">
+				<h1>Description</h1>
+				<p>Bla bla bla je décris mon covoit et je rentre dans les détails si il faut préciser quoi que ce soit....</p>
+				<a href="">Voir plus </a>
+			</div>
+				<a href="" class ="bouton_bleu">Réserver</a>
+			</div>
+
+		<div class ="proposition_covoit">
+			<div class ="profil_driver"><h1>Nom du conducteur</h1>
+				<p><img src="../Images/profil_photo.jpg" class = "profil_photo"></p>
+			</div>
+			<div class ="info_voyage">
+				<ul>
+					<li>Horaire</li>
+					<li>Lieu départ</li>
+					<li>Lieu arrivé</li>
+					<li>Places disponibles</li>
+				</ul>
+			</div>
+			<div class = "description_voyage">
+				<h1>Description</h1>
+				<p>Bla bla bla je décris mon covoit et je rentre dans les détails si il faut préciser quoi que ce soit....</p>
+				<a href="">Voir plus </a>
+			</div>
+				<a href="" class ="bouton_bleu">Réserver</a>
+			</div>
+		<div class ="proposition_covoit">
+			<div class ="profil_driver"><h1>Nom du conducteur</h1>
+				<p><img src="../Images/profil_photo.jpg" class = "profil_photo"></p>
+			</div>
+			<div class ="info_voyage">
+				<ul>
+					<li>Horaire</li>
+					<li>Lieu départ</li>
+					<li>Lieu arrivé</li>
+					<li>Places disponibles</li>
+				</ul>
+			</div>
+			<div class = "description_voyage">
+				<h1>Description</h1>
+				<p>Bla bla bla je décris mon covoit et je rentre dans les détails si il faut préciser quoi que ce soit....</p>
+				<a href="">Voir plus </a>
+			</div>
+				<a href="" class ="bouton_bleu">Réserver</a>
+			</div>
+
+			<div class ="proposition_covoit">
+			<div class ="profil_driver"><h1>Nom du conducteur</h1>
+				<p><img src="../Images/profil_photo.jpg" class = "profil_photo"></p>
+			</div>
+			<div class ="info_voyage">
+				<ul>
+					<li>Horaire</li>
+					<li>Lieu départ</li>
+					<li>Lieu arrivé</li>
+					<li>Places disponibles</li>
+				</ul>
+			</div>
+			<div class = "description_voyage">
+				<h1>Description</h1>
+				<p>Bla bla bla je décris mon covoit et je rentre dans les détails si il faut préciser quoi que ce soit....</p>
+				<a href="">Voir plus </a>
+			</div>
+				<a href="" class ="bouton_bleu">Réserver</a>
+			</div>											
+	</section>
 
 	<footer>
 	<ul class="menuprincipal">
