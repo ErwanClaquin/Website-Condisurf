@@ -1,3 +1,11 @@
+@font-face 
+{
+    font-family: 'MaSuperPolice';
+    src: url('../Police_ecriture/KaushanScript-Regular.otf');
+}
+body{
+	font-family: MaSuperPolice;	
+}
 .menuprincipal
 {
 	list-style-type: none;
@@ -9,6 +17,7 @@
 	display: -webkit-flex;
 	display: -ms-flex;
 	align-items: center;
+	justify-content: space-around;
 
 }
 
@@ -114,8 +123,9 @@ section
 #conteneur1
 {
     display:flex;
-    flex-direction: column;
- 
+	flex-direction: column;
+	
+
 	justify-content: space-around;
 	
 	flex-wrap: wrap;
@@ -129,6 +139,9 @@ section
 	justify-content: center;
 	flex-wrap: nowrap;
 	flex: 3;
+	margin-right : 150px;
+	margin-left : 150px;
+	
 	
 	   
 }
@@ -139,7 +152,7 @@ section
 	justify-content: center;
 	margin: 10px;
 	flex-wrap: wrap;
-	   
+	  
 }
 #conteneur4
 {
@@ -148,41 +161,54 @@ section
 	justify-content: center;
 	margin: 10px;
 	flex-wrap: wrap;
+	margin-right : 50px;
+	margin-left : 50px;
+
 	   
+}
+#conteneur5
+{
+    display:flex;
+    flex-direction: column;
+	justify-content: center;
+	margin: 10px;
+	flex-wrap: wrap;
+	  
 }
 .element1
 {
-	/*width: 1750px;
-	height: 650px;*/
 	flex: 2;
+	border: 3px solid black;
+	border-radius: 7px;
 
 }
 .element2
 {
-	/*width: 1750px;
-	height: 200px;*/
+	margin : 10px;
 	flex: 1;
-	margin: 10px;
-    border: 10px solid #17d436;
+	border: 3px solid black;
+	border-radius: 7px;
 }
 
 .detailspot
 {
-	flex: 2;
-	margin: 10px;
-    border: 10px solid #ca2974;
+	flex: 5;
+	border: 3px solid black;
+	border-radius: 7px;
+	margin : 10px;
 }
 .podcast
 {
 	flex: 1;
-	margin: 10px;
-    border: 10px solid #8672a7;
+	border: 3px solid black;
+	border-radius: 7px;
+	margin : 10px;
 }
 .element3
 {
-	
-	margin: 10px;
-    border: 10px solid #ffc60b;
+	margin : 10px;
+	border: 3px solid black;
+	border-radius: 7px;
 }
 .logo_print
 {
@@ -195,8 +221,93 @@ section
 
 .valide
 {
-	width: 10px;
-	height: auto;
+	width: 20px;
+	height: 100px;
 	max-width: 100%;
 	max-height: 100%;
+}
+
+.separator
+{
+
+	border: 1px solid #00FFFF;
+	border-radius: 5px;
+	max-width: 50%;
+	min-width:10px;
+}
+
+.button_container{
+	width: 100px;
+	text-align: center;
+}
+#button_modal{
+	height: 10px;
+	width: 300px;
+	background-color: white;
+	color: black;
+	font-family: MaSuperPolice;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	margin-top: 50px;
+}
+#modal1{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 340px;
+	width:  700px;
+	background-color: beige;
+	border-radius: 10px;	
+	text-align: center;
+	color: black;
+	position: absolute;
+	top: -700px;
+	transition: 0.5s;
+	margin-top: 10px;
+}
+#modal2{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 340px;
+	width:  700px;
+	background-color: beige;
+	border-radius: 10px;	
+	text-align: center;
+	color: black;
+	position: absolute;
+	top: -700px;
+	transition: 0.5s;
+	margin-top: 10px;
+}
+#modal3{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 340px;
+	width:  700px;
+	background-color: beige;
+	border-radius: 10px;	
+	text-align: center;
+	color: black;
+	position: absolute;
+	top: -700px;
+	transition: 0.5s;
+	margin-top: 10px;
+}
+#modal h1{
+	padding-top: 2px;
+}
+#close{
+	height: 50px;
+	width: 300px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	margin: auto;
+	font-family: MaSuperPolice;
+	justify-content: center;
 }
