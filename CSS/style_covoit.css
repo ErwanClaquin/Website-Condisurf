@@ -6,6 +6,8 @@
 body{
 	font-family: MaSuperPolice;	
 }
+/*En tête*/
+/* ppppppppppppppppppppppppppppppppppppppp*/
 .menuprincipal
 {
 	list-style-type: none;
@@ -71,20 +73,19 @@ body{
 	margin: 10px;
 	text-decoration: none;
 }
+
 .logo
 {
 	width: 4em;
 	height: auto;
 	max-width: 100%;
 	max-height: 100%;
+
 }
-.socialNetwork
-{
-	width: 2em;
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-}
+/* ppppppppppppppppppppppppppppppppppppppp*/
+
+/*Section ma recherche*/
+/* ppppppppppppppppppppppppppppppppppppppp*/
 
 .menubarre
 {
@@ -106,26 +107,40 @@ body{
 	max-width: 100%;
 	max-height: 100%;
 }
+.bouton
+{
+	padding: 7px;
+	border :3px solid blue;
+	border-radius: 7px;
+	box-shadow: 5px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
+.bouton2
+{
+	padding: 7px;
+	border :3px solid blue;
+	border-radius: 7px;
+	box-shadow: 5px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
 
+
+/* ppppppppppppppppppppppppppppppppppppppp*/
+
+/*Partie description d'un covoiturage*/
+/* ppppppppppppppppppppppppppppppppppppppp*/
 .section_principal
 {
 	display: flex;
 	flex-direction: column;
+	/*border-radius: 7px;*/
 	overflow: scroll;
-	border: 3px solid black;
-	height: 50%;
-}
-
-.section_principal li
-{
-	padding : 2px;
-	border :3px solid blue;
-	margin : 2px;
-	border-radius: 7px;
-}
-.infovoyage :hover
-{
-	text-decoration: underline;
+	/*border: 3px solid black;*/
+	height: 530px;
 }
 
 .proposition_covoit
@@ -137,30 +152,84 @@ body{
 	justify-content: space-around;
 	margin : 2px;
 }
+.profil_driver h1
+{
+	font-size: 150%;
+	font-weight: bold;
+}
 
+.profil_driver h2
+{
+	font-size: 100%;
+	font-style: italic;
+	font-family: serif;
+
+}
+
+.profil_driver
+{
+	flex :2;
+}
 .profil_photo
 {
 	margin-left: 30px;
 	width: 10em;
 	height: auto;
+	flex :1;
 }
 
 .info_voyage
 {
-	margin-top: 40px;
+	flex :1.2;
+	position: relative;
+	/*Position relative par rapport à sa place initial*/
+	top : 45px;
+	right: 30px;
 }
 
+.info_voyage ul
+{
+	list-style-type: square;
+	font-family: serif;
+}
+
+.description_voyage
+
+{
+	margin : 20px;
+	margin-top: 0px;
+	flex :10;
+}
+.description_voyage p, a
+{
+	font-family: serif;
+}
 .bouton_bleu
 {
 	padding: 7px;
+
 	border :3px solid blue;
 	border-radius: 7px;
 	box-shadow: 5px;
 	background-color: blue;
 	color: white;
 	text-decoration: none;
+
+	position: relative;
+	/*Position relative par rapport à sa place initial*/
+	bottom: -90px; /*On descend de 90 pixels*/
+	right: 10px; /*On décale de 10 pixels depuis la droite*/
+
 }
-footer
+/* ppppppppppppppppppppppppppppppppppppppp*/
+
+/*Pied de page*/
+/* ppppppppppppppppppppppppppppppppppppppp*/
+.socialNetwork
 {
-	margin-top: 2px;
+	width: 2em;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
 }
+/* ppppppppppppppppppppppppppppppppppppppp*/
