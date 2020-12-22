@@ -93,7 +93,7 @@ body{
 
 p, em
 {
-    color: blue;
+    color:black;
 }
 
 
@@ -161,7 +161,7 @@ section
 	justify-content: center;
 	margin: 10px;
 	flex-wrap: wrap;
-	margin-right : 50px;
+	margin-right : 10px;
 	margin-left : 50px;
 
 	   
@@ -257,7 +257,7 @@ section
 	justify-content: center;
 	height: 340px;
 	width:  700px;
-	background-color: beige;
+	background-color:beige;
 	border-radius: 10px;	
 	text-align: center;
 	color: black;
