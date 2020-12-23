@@ -98,16 +98,7 @@ p, em
 
 
 
-.niveau
-{
-    color: red;
-}
 
-.webcam
-{
-	position: relative;
-	
-}
 /*
 section
 {
@@ -178,8 +169,7 @@ section
 .element1
 {
 	flex: 2;
-	border: 3px solid black;
-	border-radius: 7px;
+	
 
 }
 .element2
@@ -188,6 +178,7 @@ section
 	flex: 1;
 	border: 3px solid black;
 	border-radius: 7px;
+	background-color: #F0F0F0; 
 }
 
 .detailspot
@@ -196,6 +187,7 @@ section
 	border: 3px solid black;
 	border-radius: 7px;
 	margin : 10px;
+	background-color: #F0F0F0; 
 }
 .podcast
 {
@@ -203,12 +195,14 @@ section
 	border: 3px solid black;
 	border-radius: 7px;
 	margin : 10px;
+	background-color: #F0F0F0; 
 }
 .element3
 {
 	margin : 10px;
 	border: 3px solid black;
 	border-radius: 7px;
+	background-color: #F0F0F0; 
 }
 .logo_print
 {
@@ -225,6 +219,7 @@ section
 	height: 100px;
 	max-width: 100%;
 	max-height: 100%;
+	background-color: #F0F0F0; 
 }
 
 .separator
@@ -239,6 +234,7 @@ section
 .button_container{
 	width: 100px;
 	text-align: center;
+	
 }
 #button_modal{
 	height: 10px;
@@ -250,6 +246,7 @@ section
 	border: none;
 	cursor: pointer;
 	margin-top: 50px;
+	background-color: #F0F0F0; 
 }
 #modal1{
 	display:flex;
@@ -257,7 +254,7 @@ section
 	justify-content: center;
 	height: 340px;
 	width:  700px;
-	background-color:beige;
+	background-color:  #666666;
 	border-radius: 10px;	
 	text-align: center;
 	color: black;
@@ -265,6 +262,7 @@ section
 	top: -700px;
 	transition: 0.5s;
 	margin-top: 10px;
+	background-image: linear-gradient(rgba(50, 50, 50, 0.5), rgba(128, 128, 128, 0.5))
 }
 #modal2{
 	display:flex;
@@ -272,7 +270,7 @@ section
 	justify-content: center;
 	height: 340px;
 	width:  700px;
-	background-color: beige;
+	background-color:  #666666;
 	border-radius: 10px;	
 	text-align: center;
 	color: black;
@@ -280,6 +278,7 @@ section
 	top: -700px;
 	transition: 0.5s;
 	margin-top: 10px;
+	background-image: linear-gradient(rgba(50, 50, 50, 0.5), rgba(128, 128, 128, 0.5))
 }
 #modal3{
 	display:flex;
@@ -287,7 +286,7 @@ section
 	justify-content: center;
 	height: 340px;
 	width:  700px;
-	background-color: beige;
+	background-color: #666666;
 	border-radius: 10px;	
 	text-align: center;
 	color: black;
@@ -295,6 +294,7 @@ section
 	top: -700px;
 	transition: 0.5s;
 	margin-top: 10px;
+	background-image: linear-gradient(rgba(50, 50, 50, 0.5), rgba(128, 128, 128, 0.5))
 }
 #modal h1{
 	padding-top: 2px;
@@ -302,7 +302,7 @@ section
 #close{
 	height: 50px;
 	width: 300px;
-	background-color: white;
+	background-color: #F0F0F0; 
 	color: black;
 	font-size: 20px;
 	border: none;

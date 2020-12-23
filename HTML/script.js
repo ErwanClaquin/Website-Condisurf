@@ -5,15 +5,15 @@ function print_pdf()
 }
 function openModal1()
 {
-    document.getElementById("modal1").style.top = "150px";
+    document.getElementById("modal1").style.top = "240px";
 }
 function openModal2()
 {
-    document.getElementById("modal2").style.top = "150px";
+    document.getElementById("modal2").style.top = "240px";
 }
 function openModal3()
 {
-    document.getElementById("modal3").style.top = "150px";
+    document.getElementById("modal3").style.top = "240px";
 }
 function closeModal1()
 {
