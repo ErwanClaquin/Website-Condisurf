@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'MaSuperPolice';
-    src: url('../Police_ecriture/KaushanScript-Regular.otf');
+    src: url('../Ressources/Police_ecriture/KaushanScript-Regular.otf');
 }
 body{
 	font-family: MaSuperPolice;	
