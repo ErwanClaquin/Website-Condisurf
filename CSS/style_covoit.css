@@ -5,6 +5,9 @@
 }
 body{
 	font-family: MaSuperPolice;	
+	min-width: 1400px;
+	min-height: 500px;
+
 }
 /*En tête*/
 /* ppppppppppppppppppppppppppppppppppppppp*/
