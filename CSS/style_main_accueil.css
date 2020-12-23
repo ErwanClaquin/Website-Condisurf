@@ -1,12 +1,3 @@
-@font-face 
-{
-    font-family: 'MaSuperPolice';
-    src: url('../Police_ecriture/KaushanScript-Regular.otf');
-}
-body{
-	font-family: MaSuperPolice;	
-}
-
 .wrapper
 {
 	text-align: center;
