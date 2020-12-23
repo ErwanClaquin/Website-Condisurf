@@ -40,7 +40,7 @@ body{
 }
 
 .puceprincipal a {
-	color: #FF0000;
+	color: #00FFFF;
 	text-align: center;
 	padding: 16px;
 	margin: 10px;
@@ -125,7 +125,7 @@ section{
 }
 
 h1, h2, h3{
-	color : #FF0000;
+	color: #00FFFF;
 }
 
 #carte
